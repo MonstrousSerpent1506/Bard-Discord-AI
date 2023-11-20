@@ -25,8 +25,31 @@ The Discord bot serves as a versatile tool for generating text, translating lang
    * Click on the "Add Bot" button and copy the generated bot token.
    * Store the bot token and Bard __Secure-1PSID cookie value in a configuration file named `config.json` using the following format:
 
-```json
+`json
 {
   "bot_token": "YOUR_BOT_TOKEN",
   "bard_cookie_value": "YOUR_BARD_COOKIE_VALUE"
-}
+}`
+
+2. Install the required Python libraries:
+`pip install discord requests`
+
+3. Download the bot code (available in the provided link or repository) and save it locally.
+
+4. Run the bot code using the following command:
+`python bot.py`
+
+
+# Usage Instructions
+
+The bot responds to various commands, each with specific parameters. Here's a summary of the available commands:
+
+## Text Generation
+
+### `generate`
+
+Generates text based on a provided prompt.
+
+**Usage:**
+
+`!generate <prompt>`
